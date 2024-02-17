@@ -1,1 +1,0 @@
-learning shell and how to manipulate files
