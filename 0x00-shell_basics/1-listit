@@ -1,2 +1,3 @@
 #!/bin/bash
-list_it=$(ls) echo "display contents of dir:$list_it"
+list_it=$(ls) echo "display contents of dir:" ls
+
