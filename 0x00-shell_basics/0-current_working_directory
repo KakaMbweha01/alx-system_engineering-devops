@@ -1,2 +1,3 @@
 #!/bin/bash
-current_directory=$(pwd) echo "Route to working directory:$current_directory"
+echo "Route to working directory: $(pwd)"
+
