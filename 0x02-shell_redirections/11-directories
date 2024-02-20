@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -minidepth | -maxdepth | -type d -exec printf . \; | wc -c
