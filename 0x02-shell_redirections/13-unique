@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | unique -c | awk '$1==1 (print$2)'
+grep -v '^$' | sort | uniq -u
