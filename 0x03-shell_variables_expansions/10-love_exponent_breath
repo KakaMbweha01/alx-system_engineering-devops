@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((${BREATH:-O}**$*{LOVE:-O}))
+echo "scale=0; e(1(${BREATH:-O})*${LOVE:-1})/1" | bc -l
